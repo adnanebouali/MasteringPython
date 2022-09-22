@@ -23,3 +23,13 @@ print(name[4::-2])
 # "lze"
 # "Ezr"
 # "rzE"
+
+# task five
+name = "#@#@Elzero#@#@"
+print(name.strip("#@"))
+a, b, c, d, e = "1", "11", "111", "1111", "11111"
+print(a.zfill(5))
+print(b.zfill(5))
+print(c.zfill(5))
+print(d.zfill(5))
+print(e.zfill(5))
