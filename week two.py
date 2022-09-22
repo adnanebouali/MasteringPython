@@ -12,3 +12,14 @@ name = "elzero"
 print(name[1])
 print(name[2])
 print(name[-1])
+
+
+# task four
+name = "Elzero"
+print(name[1:4])
+print(name[::2])
+print(name[4::-2])
+# Needed Output
+# "lze"
+# "Ezr"
+# "rzE"
