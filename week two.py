@@ -52,5 +52,14 @@ print(name_two.swapcase())
 msg = "I Love Python And Although Love Elzero Web School"
 print(msg.count("Love"))
 
+# task ten
 name = "Elzero"
-print('testff', name.find("z"))
+print(name.find("z"))
+
+# task eleven
+msg = "I <3 Python And Although <3 Elzero Web School"
+print(msg.replace("<3", "Love", 1))
+
+# task twelve
+msg = "I <3 Python And Although <3 Elzero Web School"
+print(msg.replace("<3", "Love"))
