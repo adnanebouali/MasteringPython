@@ -63,3 +63,11 @@ print(msg.replace("<3", "Love", 1))
 # task twelve
 msg = "I <3 Python And Although <3 Elzero Web School"
 print(msg.replace("<3", "Love"))
+
+# task thirteen
+Name, Age, Country = "Adnane", 23, "Algeria"
+print("my name is %s my age is %d Mycountry is %s" % (Name, Age, Country))
+print("my name is {} my age is {} Mycountry is {}" .format(Name, Age, Country))
+print("my name is {:s} my age is {:d} Mycountry is {:s}" .format(
+    Name, Age, Country))
+print(f"my name is {Name} my age is {Age} Mycountry is {Country}")
