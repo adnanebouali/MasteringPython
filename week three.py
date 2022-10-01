@@ -80,3 +80,33 @@ print(len(friends))
 technologies = ["Html", "CSS", "JS", "Python", ["Django", "Flask", "Web"]]
 print(technologies[4][0])
 print(technologies[4][-1])
+
+# task three Tuples
+friends = "Osama",
+print(friends[0])
+print(type(friends))
+
+# task two
+friends = ("Osama", "Ahmed", "Sayed")
+List = list(friends)
+List[0] = "Elzero"
+friends = tuple(List)
+print(friends)
+print(type(friends))
+print(f"{len(friends)} Elements")
+# print("{:d} Elements".format(len(friends)))
+# print("%d Elements" % (len(friends)))
+
+#  task three
+nums = (1, 2, 3)
+letters = ("A", "B", "C")
+res = nums+letters
+print(f"nums_and_letters_one ={res}")
+print(f"{len(res)} Elements")
+
+# task four
+my_tuple = (1, 2, 3, 4)
+a, b, _, c = my_tuple
+print(a)
+print(b)
+print(c)
