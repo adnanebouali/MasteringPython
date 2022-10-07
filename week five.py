@@ -30,3 +30,32 @@ print(result**3)
 print((result**3) % 2600)
 print(((result**3) % 2600)/5)
 print(type(str(((result**3) % 2600)/5)))
+
+print("=" * 50)
+# Task one
+name = input("Enter your name: ").strip().capitalize()
+print(name)
+print("-" * 50)
+
+# Task two
+Age = int(input("Enter your Age: "))
+if Age < 16:
+    print("Hello Your Age Is Under 16, Some Articles Is Not Suitable For You")
+else:
+    print(f"Hello Your Age Is {Age}, All Articles Is Suitable For You")
+print("-" * 50)
+
+# Task three
+fname = input("Enter your First Name: ").strip().capitalize()
+lname = input("Enter your Last Name: ").strip().capitalize()
+print(f"Hello {fname} {lname[0]}.")
+print("-" * 50)
+
+# Task four
+email = input("Enter your email: ").strip().lower()
+name = email[:email.index("@")]
+domain = email[email.index("@")+1:email.index(".")]
+top_domain = email[email.index(".")+1:]
+print(f"Your Name Is {name}")
+print(f"Email Service Provider Is {domain}")
+print(f"Top Level Domain Is {top_domain}")
