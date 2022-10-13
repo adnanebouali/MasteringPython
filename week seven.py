@@ -26,6 +26,19 @@
 # print(f"Friends Printed And Ignored Names Count Is {som}")
 # print("-"*30)
 # Task Three
-skills = ["HTML", "CSS", "JavaScript", "PHP", "Python"]
-while skills:
-    print(skills.pop())
+# skills = ["HTML", "CSS", "JavaScript", "PHP", "Python"]
+# while skills:
+#     print(skills.pop())
+
+# Task four
+my_friends = []
+limit = 4
+while limit > 0:
+    name = input("Add member to the list : ").strip()
+    if name.upper() == name:
+        print("Invalid Name")
+    else:
+        my_friends.append(name.capitalize())
+        limit -= 1
+        print(f"Friend {name} Added\nNames Left in List are {limit}")
+print(my_friends)
