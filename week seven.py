@@ -30,15 +30,24 @@
 # while skills:
 #     print(skills.pop())
 
-# Task four
-my_friends = []
-limit = 4
-while limit > 0:
-    name = input("Add member to the list : ").strip()
-    if name.upper() == name:
-        print("Invalid Name")
-    else:
-        my_friends.append(name.capitalize())
-        limit -= 1
-        print(f"Friend {name} Added\nNames Left in List are {limit}")
-print(my_friends)
+# # Task four
+# my_friends = []
+# limit = 4
+# while limit > 0:
+#     name = input("Add member to the list : ").strip()
+#     if name.upper() == name:
+#         print("Invalid Name")
+#     else:
+#         my_friends.append(name.capitalize())
+#         limit -= 1
+#         print(f"Friend {name} Added\nNames Left in List are {limit}")
+# print(my_friends)
+
+# Task one 2
+my_nums = [15, 81, 5, 17, 20, 21, 13]
+my_nums.sort(reverse=True)
+print(my_nums)
+for num in my_nums:
+    if num % 5 == 0:
+        print(num)
+print("All Numbers Printed")
