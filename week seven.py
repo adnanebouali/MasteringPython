@@ -43,11 +43,17 @@
 #         print(f"Friend {name} Added\nNames Left in List are {limit}")
 # print(my_friends)
 
-# Task one 2
-my_nums = [15, 81, 5, 17, 20, 21, 13]
-my_nums.sort(reverse=True)
-print(my_nums)
-for num in my_nums:
-    if num % 5 == 0:
-        print(num)
-print("All Numbers Printed")
+# # Task one 2
+# my_nums = [15, 81, 5, 17, 20, 21, 13]
+# my_nums.sort(reverse=True)
+# print(my_nums)
+# for num in my_nums:
+#     if num % 5 == 0:
+#         print(num)
+# print("All Numbers Printed")
+# Task two 2
+for i in range(1, 21):
+    if i in [6, 8, 10]:
+        continue
+    print(str(i).zfill(2))
+print("Done")
