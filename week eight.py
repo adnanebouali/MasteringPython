@@ -36,3 +36,20 @@
 
 # print(addition(10, 20, 30, 10, 15))  # 65
 # print(addition(10, 20, 30, 10, 15, 5, 100))  # 165
+# task three
+
+from queue import Empty
+from re import S
+
+
+def show_skills(name, *skills):
+    if skills == ():
+        print(f"Hello {name} You Have No Skills To Show")
+    else:
+        print(f"Hello {name} Your Skills Are : ")
+        for skill in skills:
+            print(f"- {skill}")
+
+
+show_skills("Osama", "HTML", "CSS", "JS", "Python")
+show_skills("Ahmed")
