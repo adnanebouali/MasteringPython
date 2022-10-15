@@ -112,3 +112,28 @@ students = {
         "Thinking": "B"
     }
 }
+
+
+for student in students:
+    som = 0
+    print("-"*30)
+    print(student.center(30, "-"))
+    print("-"*30)
+    for skill in students[student]:
+        if students[student][skill] == "A":
+            som += 100
+            print(
+                f"{skill} ==> 100 Points")
+        elif students[student][skill] == "B":
+            som += 80
+            print(
+                f"{skill} ==> 80 Points")
+        elif students[student][skill] == "C":
+            som += 40
+            print(
+                f"{skill} ==> 40 Points")
+        else:
+            som += 20
+            print(
+                f"{skill} ==> 20 Points")
+    print(f"Total Points Is {som}")
