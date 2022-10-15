@@ -88,7 +88,57 @@
 #             f"My Rank in {rank} Is {my_ranks[rank]} And This Equal 40 Points")
 # print(f"Total Points Is {som}")
 
-# Task three
+# # Task three
+# students = {
+#     "Ahmed": {
+#         "Math": "A",
+#         "Science": "D",
+#         "Draw": "B",
+#         "Sports": "C",
+#         "Thinking": "A"
+#     },
+#     "Sayed": {
+#         "Math": "B",
+#         "Science": "B",
+#         "Draw": "B",
+#         "Sports": "D",
+#         "Thinking": "A"
+#     },
+#     "Mahmoud": {
+#         "Math": "D",
+#         "Science": "A",
+#         "Draw": "A",
+#         "Sports": "B",
+#         "Thinking": "B"
+#     }
+# }
+
+
+# for student in students:
+#     som = 0
+#     print("-"*30)
+#     print(student.center(30, "-"))
+#     print("-"*30)
+#     for skill in students[student]:
+#         if students[student][skill] == "A":
+#             som += 100
+#             print(
+#                 f"{skill} ==> 100 Points")
+#         elif students[student][skill] == "B":
+#             som += 80
+#             print(
+#                 f"{skill} ==> 80 Points")
+#         elif students[student][skill] == "C":
+#             som += 40
+#             print(
+#                 f"{skill} ==> 40 Points")
+#         else:
+#             som += 20
+#             print(
+#                 f"{skill} ==> 20 Points")
+#     print(f"Total Points Is {som}")
+
+# Task three 22
 students = {
     "Ahmed": {
         "Math": "A",
@@ -112,28 +162,25 @@ students = {
         "Thinking": "B"
     }
 }
-
-
-for student in students:
+for keyS, valueS in students.items():
     som = 0
     print("-"*30)
-    print(student.center(30, "-"))
+    print(keyS.center(30, "-"))
     print("-"*30)
-    for skill in students[student]:
-        if students[student][skill] == "A":
+    for KeyL, ValueL in valueS.items():
+        if ValueL == "A":
             som += 100
-            print(
-                f"{skill} ==> 100 Points")
-        elif students[student][skill] == "B":
+            print(f"{KeyL} ==> 100 Points")
+        elif ValueL == "B":
             som += 80
             print(
-                f"{skill} ==> 80 Points")
-        elif students[student][skill] == "C":
+                f"{KeyL} ==> 80 Points")
+        elif ValueL == "C":
             som += 40
             print(
-                f"{skill} ==> 40 Points")
+                f"{KeyL} ==> 40 Points")
         else:
             som += 20
             print(
-                f"{skill} ==> 20 Points")
+                f"{KeyL} ==> 20 Points")
     print(f"Total Points Is {som}")
