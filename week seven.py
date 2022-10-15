@@ -51,9 +51,64 @@
 #     if num % 5 == 0:
 #         print(num)
 # print("All Numbers Printed")
-# Task two 2
-for i in range(1, 21):
-    if i in [6, 8, 10]:
-        continue
-    print(str(i).zfill(2))
-print("Done")
+# # Task two 2
+# for i in range(1, 21):
+#     if i in [6, 8, 10]:
+#         continue
+#     print(str(i).zfill(2))
+# print("Done")
+# my_ranks = {
+#     'Math': 'A',
+#     "Science": 'B',
+#     'Drawing': 'A',
+#     'Sports': 'C'
+# }
+# for rank in my_ranks:
+#     print(
+#         f"My Rank in {rank} Is {my_ranks[rank]} And This Equal 100 Points" if my_ranks[rank] == "A" else f"My Rank in {rank} Is {my_ranks[rank]} And This Equal 80 Points" if my_ranks[rank] == "B" else f"My Rank in {rank} Is {my_ranks[rank]} And This Equal 40 Points")
+# my_ranks = {
+#     'Math': 'A',
+#     "Science": 'B',
+#     'Drawing': 'A',
+#     'Sports': 'C'
+# }
+# som = 0
+# for rank in my_ranks:
+#     if my_ranks[rank] == "A":
+#         som += 100
+#         print(
+#             f"My Rank in {rank} Is {my_ranks[rank]} And This Equal 100 Points")
+#     elif my_ranks[rank] == "B":
+#         som += 80
+#         print(
+#             f"My Rank in {rank} Is {my_ranks[rank]} And This Equal 80 Points")
+#     else:
+#         som += 40
+#         print(
+#             f"My Rank in {rank} Is {my_ranks[rank]} And This Equal 40 Points")
+# print(f"Total Points Is {som}")
+
+# Task three
+students = {
+    "Ahmed": {
+        "Math": "A",
+        "Science": "D",
+        "Draw": "B",
+        "Sports": "C",
+        "Thinking": "A"
+    },
+    "Sayed": {
+        "Math": "B",
+        "Science": "B",
+        "Draw": "B",
+        "Sports": "D",
+        "Thinking": "A"
+    },
+    "Mahmoud": {
+        "Math": "D",
+        "Science": "A",
+        "Draw": "A",
+        "Sports": "B",
+        "Thinking": "B"
+    }
+}
