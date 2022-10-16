@@ -61,11 +61,28 @@
 # print(say_hello("Osama", 38, "Egypt"))
 # print(say_hello())
 
-# Task one
-def get_score(**scores):
-    for subject, score in scores.items():
-        print(f"{subject} => {score}")
+# # Task one
+# def get_score(**scores):
+#     for subject, score in scores.items():
+#         print(f"{subject} => {score}")
 
 
-get_score(Math=90, Science=80, Language=70)
-get_score(Logic=70, Problems=60)
+# get_score(Math=90, Science=80, Language=70)
+# get_score(Logic=70, Problems=60)
+
+# Task two
+
+def get_people_scores(name="", **skills):
+    if skills == {}:
+        print(f"Hello {name} You Have No Scores To Show")
+    else:
+        if name != "":
+            print(f"Hello {name} This Is Your Score Table:")
+        for skill, progress in skills.items():
+            print(f"{skill} => {progress}")
+
+
+get_people_scores("Osama", Math=90, Science=80, Language=70)
+get_people_scores("Mahmoud", Logic=70, Problems=60)
+get_people_scores(Logic=70, Problems=60)
+get_people_scores("Ahmed")
