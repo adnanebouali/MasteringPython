@@ -1,20 +1,3 @@
-print("hello")
+import os
 
-
-def pr():
-    return "xxx"
-
-
-print(pr())
-print("sss")
-print(pr())
-print("sss")
-x = {}
-
-
-def pr():
-    return "xxx"
-
-
-def pr():
-    return "xxx"
+os.remove(r"D:\my files\Python\MasteringPython-\adnane.txt")
