@@ -49,16 +49,40 @@
 # print(my_all([1, 2, 3, []]))  # False
 
 
-def my_any(elements):
+# def my_any(elements):
 
+#     for element in elements:
+#         if bool(element) == True:
+#             x = True
+#             break
+#         else:
+#             x = False
+#     return x
+
+
+# print(my_any([(), (), [], 1]))  # True
+# print(my_any([(), 0, False]))  # False
+
+
+# def my_min(elements):
+#     min = 0
+#     for element in elements:
+#         if element < min:
+#             min = element
+#     return min
+
+
+# print(my_min([10, 100, -20, -150, 50]))  # -150
+# print(my_min((10, 100, -20, -100, 50)))  # -100
+
+
+def my_max(elements):
+    max = 0
     for element in elements:
-        if bool(element) == True:
-            x = True
-            break
-        else:
-            x = False
-    return x
+        if element > max:
+            max = element
+    return max
 
 
-print(my_any([(), (), [], 1]))  # True
-print(my_any([(), 0, False]))  # False
+print(my_max([10, 100, -20, -100, 50, 700]))  # 700
+print(my_max((10, 100, -20, -100, 50, 2000)))  # 2000
