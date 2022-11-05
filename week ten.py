@@ -47,3 +47,13 @@ reslt = reduce(mul, nums)
 resltLambda = reduce(lambda num1, num2: num1 * num2, nums)
 print(reslt)
 print(resltLambda)
+
+# task four
+skills = ("HTML", "CSS", 10, "PHP", "Python", 20, "JavaScript")
+skills = reversed(skills)
+skills = enumerate(skills, 50)
+for counter, skill in skills:
+    if type(skill) == int:
+        pass
+    else:
+        print(f"{counter} - {skill}")
