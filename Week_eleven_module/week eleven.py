@@ -16,6 +16,28 @@ import random
 
 # say_welcome()
 
-from my_mod import say_welcome as new_welcome
+# from my_mod import say_welcome as new_welcome
 
-new_welcome()
+# new_welcome()
+
+print("-" * 50)
+
+import datetime
+
+# date = datetime.datetime(1999, 5, 17)
+# nowd = datetime.datetime.now()
+# print(f"Days From {date} To {nowd} Is => {(nowd - date).days} Days")
+
+
+nowd = datetime.datetime.now().strftime("%Y-%m-%d")
+print(nowd)
+nowd = datetime.datetime.now().strftime("%b %d,%Y")
+print(nowd)
+nowd = datetime.datetime.now().strftime("%d - %b - %Y")
+print(nowd)
+nowd = datetime.datetime.now().strftime("%d / %b / %y")
+print(nowd)
+nowd = datetime.datetime.now().strftime("%d / %B / %Y")
+print(nowd)
+nowd = datetime.datetime.now().strftime("%a, %d  %B  %Y")
+print(nowd)
