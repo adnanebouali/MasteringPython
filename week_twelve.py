@@ -1,4 +1,4 @@
-# الدروس من رقم 086 إلى رقم 089
+''' الدروس من رقم 086 إلى رقم 089'''
 # # Task one 
 # my_list = ["E", "Z", "R", 1, 2, 3]
 # my_tuple = ("L", "E", "O")
@@ -23,8 +23,8 @@
 
 # Task Three
 
-from PIL import Image, ImageOps
-my_image=Image.open(r"D:\my files\Python\MasteringPython-\elzero-pillow.png")
+# from PIL import Image, ImageOps
+# my_image=Image.open(r"D:\my files\Python\MasteringPython-\elzero-pillow.png")
 # my_image.show()
 # box=(400,0,800,400)
 # croped_image=my_image.crop(box)
@@ -37,14 +37,23 @@ my_image=Image.open(r"D:\my files\Python\MasteringPython-\elzero-pillow.png")
 # gray_image_two = ImageOps.grayscale(croped_image_two).rotate(180)
 # gray_image_two.show()
 
-# Task four
-def say_hello_to(name):
-    """
-    parameter(someone) => Person Name
-    Function To Say Hello To Anyone
-    """
-    return "Hello %s" %(name)
+# # Task four
+# def say_hello_to(name):
+#     """
+#     parameter(someone) => Person Name
+#     Function To Say Hello To Anyone
+#     """
+#     return "Hello %s" %(name)
 
-print(say_hello_to("Osama"))
-print(say_hello_to.__doc__)
-help(say_hello_to)
+# print(say_hello_to("Osama"))
+# print(say_hello_to.__doc__)
+# help(say_hello_to)
+
+# # Task five 
+
+# my_friends = ["Ahmed", "Osama", "Sayed"]
+# def say_hello(some_peoples):
+#     """print hello to someone in the list"""
+#     for someone in some_peoples:
+#         print(f"Hello {someone}")
+# say_hello(my_friends)
