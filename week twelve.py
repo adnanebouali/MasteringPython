@@ -36,3 +36,15 @@ my_image=Image.open(r"D:\my files\Python\MasteringPython-\elzero-pillow.png")
 # croped_image_two.show()
 # gray_image_two = ImageOps.grayscale(croped_image_two).rotate(180)
 # gray_image_two.show()
+
+# Task four
+def say_hello_to(name):
+    """
+    parameter(someone) => Person Name
+    Function To Say Hello To Anyone
+    """
+    return "Hello %s" %(name)
+
+print(say_hello_to("Osama"))
+print(say_hello_to.__doc__)
+help(say_hello_to)
