@@ -7,11 +7,11 @@ print("Hello '" + n + "', How Are You Doing \\ \"\"\" Your Age Is \"" +
 print("Hello '" + n + "', How Are You Doing \\ \n \"\"\" Your Age Is \"" +
       a + "\"\" + \n and your country is:", c)
 
-# task three
-name = "elzero"
-print(name[1])
-print(name[2])
-print(name[-1])
+# Task3
+name = 'Elzero'
+print("Second Letter Is "+name[1])
+print("Third Letter Is "+name[2])
+print("Last Letter Is "+name[-1])
 
 
 # task four
@@ -29,12 +29,16 @@ name = "#@#@Elzero#@#@"
 print(name.strip("#@"))
 
 # task six
-a, b, c, d, e = "1", "11", "111", "1111", "11111"
-print(a.zfill(5))
-print(b.zfill(5))
-print(c.zfill(5))
-print(d.zfill(5))
-print(e.zfill(5))
+num = "9"
+print(num.zfill(4))
+num = "15"
+print(num.zfill(4))
+num = "130"
+print(num.zfill(4))
+num = "950"
+print(num.zfill(4))
+num = "1500"
+print(num.zfill(4))
 
 # task seven
 name_one = "Osama"
