@@ -24,12 +24,12 @@ print("-" * 50)
 # task four
 num_one = 10
 num_two = 20
-result = num_one+num_two
+result = num_one + num_two
 print(result)
 print(result**3)
 print((result**3) % 2600)
-print(((result**3) % 2600)/5)
-print(type(str(((result**3) % 2600)/5)))
+print(((result**3) % 2600) / 5)
+print(type(str(((result**3) % 2600) / 5)))
 
 print("=" * 50)
 # Task one
@@ -53,9 +53,9 @@ print("-" * 50)
 
 # Task four
 email = input("Enter your email: ").strip().lower()
-name = email[:email.index("@")]
-domain = email[email.index("@")+1:email.index(".")]
-top_domain = email[email.index(".")+1:]
+name = email[: email.index("@")]
+domain = email[email.index("@") + 1 : email.index(".")]
+top_domain = email[email.index(".") + 1 :]
 print(f"Your Name Is {name}")
 print(f"Email Service Provider Is {domain}")
 print(f"Top Level Domain Is {top_domain}")
