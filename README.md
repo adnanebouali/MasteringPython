@@ -49,8 +49,7 @@ To run or review the solutions, follow these steps:
    
 2. Open Visual Studio Code (VSCode).
 
-3. Navigate to the assignment directory you want to explore:
-   cd elzero-python-assignments/assignment-1
+3. Navigate to the assignment directory you want to explore.
 
 4. Open the Jupyter Notebook file in VSCode.
 
@@ -68,7 +67,6 @@ If you have better solutions, improvements, or additional explanations for any o
 
 2. Create a new branch for your contributions:
    git checkout -b feature/new-contribution
-
 
 3. Make your changes and improvements.
 
