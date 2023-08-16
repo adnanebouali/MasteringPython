@@ -56,7 +56,13 @@ Here's a list of assignments and their corresponding directories:
     - - [Assignment 4: Functions](assignment-4)
       - - [Assignment 4: Functions](assignment-4)
         - - [Assignment 4: Functions](assignment-4)
-
+<style>
+details[open] {
+    /* Adjust the max-height and overflow properties as needed */
+    max-height: 300px; /* Set the maximum height to display initially */
+    overflow: auto; /* Add scrollbars if the content overflows the max-height */
+}
+</style>
 </details>
 
 ## Getting Started
