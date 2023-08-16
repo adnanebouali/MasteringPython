@@ -22,48 +22,22 @@ Each assignment is organized in its own directory and contains the following:
 
 Here's a list of assignments and their corresponding directories:
 
-<details>
-<summary>Click to expand</summary>
+1. [Week 1: Introduction & Variables & Concatenation](01_week_one)
+2. [Week 2: Strings & Methods](02_week_two)
+3. [Week 3: Number, Lists, Tuples](03_week_three)
+4. [Week 4: Set, Dictionary](04_week_four)
+5. [Week 5: Boolean, Operators, Input](05_week_five)
+6. [Week 6: Control Flow](06_week_six)
+7. [Week 7: Loop](07_week_seven)
+8. [Week 8: Functions](08_week_eight)
+9. [Week 9: Files Handling](09_week_nine)
+10. [Week 10: Built In Functions](10_week_ten)
+11. [Week 11: Modules, Date, Decorators](11_week_eleven)
+12. [Week 12: Modules, Error Handling](12_week_twelve)
+13. [Week 13: Regular Expression](13_week_thirten)
+14. [Week 14: Object Oriented Programming](14_week_fourteen)
+15. [Week 15: SQLite Database](15_week_fifteen)
 
-1. [Assignment 1: Basic Python Concepts](01_week_one)
-2. [Assignment 1: Basic Python Concepts](01_week_one)
-3. [Assignment 1: Basic Python Concepts](01_week_one)
-4. [Assignment 1: Basic Python Concepts](01_week_one)
-5. [Assignment 1: Basic Python Concepts](01_week_one)
-6. [Assignment 1: Basic Python Concepts](01_week_one)
-7. [Assignment 1: Basic Python Concepts](01_week_one)
-8. [Assignment 1: Basic Python Concepts](01_week_one)
-9. [Assignment 1: Basic Python Concepts](01_week_one)
-10. [Assignment 1: Basic Python Concepts](01_week_one)
-11. [Assignment 1: Basic Python Concepts](01_week_one)
-12. [Assignment 1: Basic Python Concepts](01_week_one)
-13. [Assignment 1: Basic Python Concepts](01_week_one)
-14.   ... (continue the list)
-
-</details>
-
-<details>
-<summary>Click to show more</summary>
-
-- [Assignment 1: Basic Python Concepts](assignment-1)
-- [Assignment 2: Conditional Statements](assignment-2)
-- [Assignment 3: Loops](assignment-3)
-- [Assignment 4: Functions](assignment-4)
-
-- [Assignment 4: Functions](assignment-4)
-- - [Assignment 4: Functions](assignment-4)
-  - - [Assignment 4: Functions](assignment-4)
-    - - [Assignment 4: Functions](assignment-4)
-      - - [Assignment 4: Functions](assignment-4)
-        - - [Assignment 4: Functions](assignment-4)
-<style>
-details[open] {
-    /* Adjust the max-height and overflow properties as needed */
-    max-height: 300px; /* Set the maximum height to display initially */
-    overflow: auto; /* Add scrollbars if the content overflows the max-height */
-}
-</style>
-</details>
 
 ## Getting Started
 
