@@ -42,6 +42,23 @@ Here's a list of assignments and their corresponding directories:
 
 </details>
 
+<details>
+<summary>Click to show more</summary>
+
+- [Assignment 1: Basic Python Concepts](assignment-1)
+- [Assignment 2: Conditional Statements](assignment-2)
+- [Assignment 3: Loops](assignment-3)
+- [Assignment 4: Functions](assignment-4)
+
+- [Assignment 4: Functions](assignment-4)
+- - [Assignment 4: Functions](assignment-4)
+  - - [Assignment 4: Functions](assignment-4)
+    - - [Assignment 4: Functions](assignment-4)
+      - - [Assignment 4: Functions](assignment-4)
+        - - [Assignment 4: Functions](assignment-4)
+
+</details>
+
 ## Getting Started
 
 To run or review the solutions, follow these steps:
