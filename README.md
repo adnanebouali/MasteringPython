@@ -1,8 +1,5 @@
 # Elzero Web School Python Assignments Solutions
 
-<p align="center">
-  <img src="https://github.com/adnanebouali/Images/blob/23cd2bdba4b30f99151c9c3fa22677ba7a5c0ba9/python_elzero_sol.png" alt="External Image">
-</p>
 This repository contains my solutions for the Python assignments provided by [Elzero Web School](https://elzero.org/study/mastering-python-study-plan/) on his Website.
 
 ## Table of Contents
