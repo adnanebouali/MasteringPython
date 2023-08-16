@@ -43,7 +43,7 @@ Here's a list of assignments and their corresponding directories:
 
 To run or review the solutions, follow these steps:
 
-1. Clone this repository to your local machine using: git clone https://github.com/your-username/elzero-python-assignments.git
+1. Clone this repository to your local machine using: git clone https://github.com/adnanebouali/MasteringPython.git
    
 2. Open Visual Studio Code (VSCode).
 
