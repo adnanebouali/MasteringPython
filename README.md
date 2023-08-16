@@ -1,6 +1,6 @@
 # Elzero Web School Python Assignments Solutions
 
-This repository contains my solutions for the Python assignments provided by [Elzero Web School](https://www.youtube.com/c/ElzeroInfo) on their YouTube channel.
+This repository contains my solutions for the Python assignments provided by [Elzero Web School](https://elzero.org/study/mastering-python-study-plan/) on his Website.
 
 ## Table of Contents
 
