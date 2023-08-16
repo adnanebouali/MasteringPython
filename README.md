@@ -24,9 +24,22 @@ Each assignment is organized in its own directory and contains the following:
 
 Here's a list of assignments and their corresponding directories:
 
-1. [Assignment 1: Basic Python Concepts](assignment-1)
+1. [Assignment 1: Basic Python Concepts](01_week_one)
 2. [Assignment 2: Conditional Statements](assignment-2)
 3. [Assignment 3: Loops](assignment-3)
+4. [Assignment 3: Loops](assignment-3)
+5. [Assignment 3: Loops](assignment-3)
+6. [Assignment 3: Loops](assignment-3)
+7. [Assignment 3: Loops](assignment-3)
+8. [Assignment 3: Loops](assignment-3)
+9. [Assignment 3: Loops](assignment-3)
+10. [Assignment 3: Loops](assignment-3)
+11. [Assignment 3: Loops](assignment-3)
+12. [Assignment 3: Loops](assignment-3)
+13. [Assignment 3: Loops](assignment-3)
+14. [Assignment 3: Loops](assignment-3)
+15. [Assignment 3: Loops](assignment-3)
+
    ...
 
 ## Getting Started
