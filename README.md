@@ -1,5 +1,8 @@
 # Elzero Web School Python Assignments Solutions
 
+<p align="center">
+  <img src="images/python_elzero_sol.png" alt="Repository Image">
+</p>
 This repository contains my solutions for the Python assignments provided by [Elzero Web School](https://elzero.org/study/mastering-python-study-plan/) on his Website.
 
 ## Table of Contents
